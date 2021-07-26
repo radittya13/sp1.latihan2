@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>function</title>
+</head>
+<body>
+<script>
+
+			
+function deretan ( awal,akhir){
+
+for(var y = awal; y < akhir; y++){
+     for(var x = awal;x < akhir; x++){
+         if(x==9 - (y-1)){
+             var hasil= x * 1-1
+             var hasil= hasil * 2
+             document.write(hasil)
+         }else{
+             document.write("_")
+         }
+    }	 
+ document.write("<br/>")
+ }
+}
+deretan (1, 10)
+         
+</script>
+</body>
+</html>
